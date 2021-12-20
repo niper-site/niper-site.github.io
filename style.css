@@ -1,29 +1,53 @@
 :root {
-	--day: rgb(255, 255, 255);
+	--day: white;
 	--night: rgb(40, 40, 40);
 }
 
 @media (prefers-color-scheme: light) {
-    html {
-        background: var(--day);
-    }
+	html {
+		background: var(--day);
+	}
 }
 
 @media (prefers-color-scheme: dark) {
-    html {
-        background: var(--night);
-        color: var(--day);
-    }
+	html {
+		background: var(--night);
+		color: var(--day);
+	}
 }
 
 body {
-	font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 	line-height: 1.5;
 	margin: 1em auto;
-    	padding: 1em;
-    	max-width: 50em
+	padding: 1em;
+	max-width: 50em
 }
 
 .headline {
 	text-decoration: underline;
+}
+
+nav {
+	display: flex;
+}
+
+nav img {
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	padding: .5rem 1rem;
+	opacity: .8;
+}
+
+a {
+	color: white;
+	text-decoration: none;
 }
