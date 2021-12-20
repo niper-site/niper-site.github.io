@@ -7,6 +7,9 @@
 	html {
 		background: var(--day);
 	}
+	i {
+		color: black;
+	}
 }
 
 @media (prefers-color-scheme: dark) {
