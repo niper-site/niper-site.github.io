@@ -54,8 +54,11 @@ nav ul li {
 	margin-left: auto; 
 	margin-right: 0;
 }
+nav a {
+	color: white;
+}
 
 a {
-	color: white;
+	color: #1890ff;
 	text-decoration: none;
 }
