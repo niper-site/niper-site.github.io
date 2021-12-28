@@ -10,6 +10,18 @@
 	i {
 		color: black;
 	}
+  a {
+  	color: #006cd0;
+  	text-decoration: none;
+  }
+
+  a:active {
+  	color: #c49000;
+  }
+
+  a:hover {
+  	color: #c49000;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +29,18 @@
 		background: var(--night);
 		color: var(--day);
 	}
+  a {
+  	color: #3fc7fd;
+  	text-decoration: none;
+  }
+
+  a:active {
+  	color: #feff2b;
+  }
+
+  a:hover {
+  	color: #feff2b;
+  }
 }
 
 body {
@@ -59,18 +83,7 @@ nav a {
 	color: white;
 }
 
-a {
-	color: #3fc7fd;
-	text-decoration: none;
-}
 
-a:active {
-	color: #feff2b;
-}
-
-a:hover {
-	color: #feff2b;
-}
 
 i span {
 	position: absolute !important;
